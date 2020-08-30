@@ -1,8 +1,10 @@
 import React from 'react'
 
+import NavBar from './components/NavBar'
+
 const App = props => {
     return (
-        <h1>Bookmark</h1>
+        <NavBar />
     )
 }
 
