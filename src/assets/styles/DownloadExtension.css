@@ -1,0 +1,113 @@
+.download{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.download>div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.download>div:first-child h3{
+    color:hsl(229, 31%, 21%);
+    font-size: 2.5em; 
+}
+
+.download>div:first-child p{
+    color: hsl(229, 8%, 60%);
+    font-size: 1.5em;
+    margin-top: 40px;
+    max-width: 537px;
+    text-align: center;
+}
+
+.download>div:last-child{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.download>div:last-child .card{
+    width: 280px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px hsl(229, 8%, 60%);
+}
+
+.download>div:last-child .card img:first-child{
+    margin-bottom: 20px;
+}
+
+.download>div:last-child .card h4{
+    font-size: 1.5em;
+    color: hsl(229, 31%, 21%);
+    margin-bottom: 10px;
+}
+
+.download>div:last-child .card img:nth-child(4){
+    width: 100%;
+    margin: 25px auto;
+}
+
+.download>div:last-child .card button{
+    color: #fff;
+    background: hsl(231, 69%, 60%);
+    font-size: 18px;
+    border: none;
+    box-shadow: 2px 2px 10px hsl(229, 8%, 60%);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+    padding: 15px 25px;
+}
+
+.download>div:last-child .card button:hover{
+    color: hsl(231, 69%, 60%);
+    background: transparent;
+    border: 1px solid hsl(231, 69%, 60%);
+}
+
+.download>div:last-child div:nth-child(2){
+    margin-top: 100px;
+}
+
+.download>div:last-child div:nth-child(3){
+    margin-top: 200px;
+}
+
+@media(max-width: 1440px){
+    .download{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .download>div:last-child{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .download>div:last-child .card{
+        width: 70%;
+        min-width: 280px;
+    }
+
+    .download>div:last-child div:nth-child(2){
+        margin-top: 50px;
+    }
+    
+    .download>div:last-child div:nth-child(3){
+        margin-top: 50px;
+    }
+}
