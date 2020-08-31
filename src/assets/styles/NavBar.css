@@ -1,12 +1,12 @@
 nav{
     position: fixed;
-    width: 100vw;
+    width: 100%;
     min-height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: #fff;
-    z-index: 1000;
+    z-index: 5000;
 }
 
 nav>div{
@@ -19,7 +19,7 @@ nav>div:last-child{
     justify-content: space-between;
     align-items: center;
     transition: all 500ms ease-in;
-    transform: translateY(-200vh);
+    transform: translateY(0);
 }
 
 nav>div:last-child a{
@@ -63,7 +63,7 @@ nav>div:last-child div:last-child{
     nav>div:last-child{
         position: absolute;
         z-index: 1000;
-        width: 100vw;
+        width: 100%;
         top: 80px;
         left: 0;
         background: rgba(37,43,70,.95);
@@ -71,6 +71,7 @@ nav>div:last-child div:last-child{
         justify-content: flex-start;
         min-height: 100vh;
         padding: 10px 100px;
+        transform: translateY(-200vh);
     }
 
     nav>div:last-child a{
