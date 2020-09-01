@@ -90,6 +90,8 @@
 @media(max-width: 1440px){
     .download{
         margin-top: 50px;
+        min-height: 100vh;
+        height: 100%;
         text-align: center;
     }
 
