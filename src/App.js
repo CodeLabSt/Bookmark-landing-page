@@ -5,6 +5,7 @@ import Banner from './components/Banner'
 import Features from './components/Features'
 import DownloadExtension from './components/DownloadExtension'
 import Faq from './components/Faq'
+import Footer from './components/Footer'
 
 const App = props => {
     return (
@@ -14,6 +15,7 @@ const App = props => {
             <Features />
             <DownloadExtension />
             <Faq />
+            <Footer />
         </Fragment>
     )
 }
