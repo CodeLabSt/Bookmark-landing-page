@@ -223,7 +223,7 @@ nav>div:last-child div:last-child{
     }
 
     .banner>div:first-child h1{
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .banner div:first-child>div{
@@ -342,9 +342,10 @@ nav>div:last-child div:last-child{
     border-radius: 0 250px 250px 0;
 }
 
-.features>div:nth-child(4)>div:last-child h1{
+.features>div:nth-child(4)>div:last-child h2{
     font-size: 2.5em;
     color: hsl(229, 31%, 21%);
+    text-align: center;
 }
 
 .features>div:nth-child(4)>div:last-child p{
@@ -433,7 +434,7 @@ nav>div:last-child div:last-child{
 
 .download>div:first-child h3{
     color:hsl(229, 31%, 21%);
-    font-size: 2.5em; 
+    font-size: 2.5em;
 }
 
 .download>div:first-child p{
@@ -532,7 +533,7 @@ nav>div:last-child div:last-child{
 }
 .faq{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -622,7 +623,7 @@ nav>div:last-child div:last-child{
 
 @media(max-width: 1440px){
     .faq{
-        margin-top: 80px;
+        margin: 80px auto;
     }
 
     .faq>div:first-child{
@@ -714,8 +715,23 @@ footer>div:last-child>div img:first-child{
 }
 
 @media(max-width: 1440px){
+
+    footer>div:first-child{
+        padding: 25px;
+        text-align: center;
+    }
+
+    footer>div:first-child h2{
+        font-size: 2em;
+    }
+
+    footer>div:first-child div input{
+        margin-right: 0;
+    }
+
     footer>div:last-child{
         flex-direction: column;
+        align-items: center;
         padding: 40px 0;
     }
 

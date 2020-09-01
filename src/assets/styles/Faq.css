@@ -1,6 +1,6 @@
 .faq{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -90,7 +90,7 @@
 
 @media(max-width: 1440px){
     .faq{
-        margin-top: 80px;
+        margin: 80px auto;
     }
 
     .faq>div:first-child{

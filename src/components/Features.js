@@ -41,7 +41,7 @@ const Features = props => {
                     <img src={panelImage} alt='features-panel' />
                 </div>
                 <div>
-                    <h1>Bookmark in one click</h1>
+                    <h2>Bookmark in one click</h2>
                     <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over you manage your favourite sites</p>
                     <button>Get it on Chrome</button>
                 </div>

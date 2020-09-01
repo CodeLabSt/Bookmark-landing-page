@@ -39,7 +39,10 @@ module.exports = {
             },
             {
                 test: /\.(png|jpg|gif|svg)$/,
-                loader: 'file-loader'
+                loader: 'file-loader',
+                options: {
+                    outputPath: 'assets/images',
+                }
             }
         ]
     },

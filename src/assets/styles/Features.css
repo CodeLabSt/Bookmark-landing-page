@@ -87,9 +87,10 @@
     border-radius: 0 250px 250px 0;
 }
 
-.features>div:nth-child(4)>div:last-child h1{
+.features>div:nth-child(4)>div:last-child h2{
     font-size: 2.5em;
     color: hsl(229, 31%, 21%);
+    text-align: center;
 }
 
 .features>div:nth-child(4)>div:last-child p{
