@@ -279,7 +279,7 @@ nav>div:last-child div:last-child{
 .features>div:nth-child(3){
     margin-top: 50px;
     width: 100%;
-    max-width: 730px;
+    max-width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -377,6 +377,20 @@ nav>div:last-child div:last-child{
 @media(max-width: 1440px){
     .features{
         width: 100vw;
+    }
+
+    .features h3{
+        font-size: 2.5em;
+    }
+
+    .features p{
+        font-size: 1.2em;
+        padding: 0 15px;
+    }
+
+    .features>div:nth-child(4)>div:last-child h2{
+        font-size: 2.5em;
+        padding: 0 15px;
     }
     
     .features>div:nth-child(3) button{
@@ -513,6 +527,10 @@ nav>div:last-child div:last-child{
         text-align: center;
     }
 
+    .download>div:first-child{
+        padding: 0 15px;
+    }
+
     .download>div:last-child{
         flex-direction: column;
         margin-top: 40px;
@@ -627,7 +645,16 @@ nav>div:last-child div:last-child{
     }
 
     .faq>div:first-child{
+        padding: 0 15px;
         text-align: center;
+    }
+
+    .faq>div:first-child h3{
+        font-size: 2.5em;
+    }
+
+    .faq>div:first-child p{
+        font-size: 1.2em;
     }
 
     .faq .accordion>div{
