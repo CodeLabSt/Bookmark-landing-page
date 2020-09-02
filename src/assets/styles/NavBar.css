@@ -101,10 +101,11 @@ nav>div:last-child div:last-child{
 
     nav>div:last-child div:last-child{
         position: absolute;
-        top: 80%;
-        left: 48%;
+        top: 70%;
+        left: 0;
+        width: 100vw;
         display: flex;
-        width: 100%;
+        justify-content: center;
         align-self: flex-end;
     }
 
