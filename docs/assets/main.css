@@ -665,6 +665,7 @@ nav>div:last-child div:last-child{
 footer{
     width: 100vw;
     min-height: 450px;
+    margin-top: 80px;
 }
 
 footer>div:first-child{
