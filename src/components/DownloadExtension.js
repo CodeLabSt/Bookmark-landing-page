@@ -18,21 +18,21 @@ const DownloadExtension = props => {
                 <div className='card'>
                     <img src={LogoChrome} alt='chrome' />
                     <h4>Add to Chrome</h4>
-                    <p>Mnimum version 62</p>
+                    <p>Minimum version 62</p>
                     <img src={DotsBg} alt='dots' />
                     <button>Add & install Extension</button>
                 </div>
                 <div className='card'>
                     <img src={LogoFirefox} alt='firefox' />
-                    <h4>Add to Chrome</h4>
-                    <p>Mnimum version 62</p>
+                    <h4>Add to Firefox</h4>
+                    <p>Minimum version 55</p>
                     <img src={DotsBg} alt='dots' />
                     <button>Add & install Extension</button>
                 </div>
                 <div className='card'>
                     <img src={LogoOpera} alt='opera' />
-                    <h4>Add to Chrome</h4>
-                    <p>Mnimum version 62</p>
+                    <h4>Add to Opera</h4>
+                    <p>Minimum version 46</p>
                     <img src={DotsBg} alt='dots' />
                     <button>Add & install Extension</button>
                 </div>
